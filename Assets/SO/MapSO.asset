@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617618ec9424c034f95301f46eebe2ac, type: 3}
+  m_Name: MapSO
+  m_EditorClassIdentifier: 
+  biomes:
+  - {fileID: 3062964003919838204, guid: af647b4864550fb4aa4daf4097a2cb8f, type: 3}
+  - {fileID: 2520145792789671370, guid: 8244250ca6024d941b9e1ca92c9d90fe, type: 3}
+  - {fileID: 1027894581327634601, guid: d9643cb876426504293575bebc77713f, type: 3}
+  - {fileID: 219702896995724925, guid: 6dfca4eaaf9286041a2412b1ff46a18a, type: 3}
+  - {fileID: 1285228112986083356, guid: 3c6c4a47cbd8cc3459729310974b5270, type: 3}
+  - {fileID: 6079841973787335154, guid: 8b4d55139929b44428da38eacdc0d2ab, type: 3}
+  - {fileID: 790908512307521857, guid: b4ac6725ea06e05469232f395c140a07, type: 3}
+  structures:
+  - {fileID: 6364210297660050785, guid: bfe55591e3f4d804eb7c71f8378ed8e5, type: 3}
+  - {fileID: 5252745487472297124, guid: a99aa25d8bce62548b7c05a39fef65af, type: 3}
+  - {fileID: 1969121281582540634, guid: 3e213620b78b4ef41b841c8fa9619608, type: 3}
+  - {fileID: 1918179170452120599, guid: b3678b5b8a536ee47bda00d2b0cda19a, type: 3}
+  - {fileID: 5577520801337956697, guid: e40a86dfe56d0df41a89bc1cd83e4a4a, type: 3}
+  - {fileID: 1092093928154997636, guid: e7771d023a823e84ba5207900c807ee4, type: 3}
+  - {fileID: 7063266319057429879, guid: a527b84dcceeca64f98ea3c4022aa974, type: 3}
+  - {fileID: 1356640794521193090, guid: 44dd036570709e34ab0c37161a32a8ed, type: 3}
+  - {fileID: 956727717555904056, guid: df158ce2a16d6d14283c4255e9fe295c, type: 3}
+  - {fileID: 3991440545026387363, guid: 08aa5c08bd92dd34b9d5c66f79840120, type: 3}
