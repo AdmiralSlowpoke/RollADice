@@ -5,16 +5,22 @@ using UnityEngine;
 public class DiceRoll : MonoBehaviour
 {
     // Start is called before the first frame update
-    private enum BiomDice {Meadow,Desert,Volcano,Ocean,DeadLand,Snow};
-    private enum StructureDice {Castle,Forest,Town,Camp,Empty,Chest};
-    void Start()
-    {
-        RollDice();
-    }
-    public void RollDice()
+    public enum BiomDice {Meadow,Desert,Volcano,Ocean,DeadLand,Snow};
+    public enum StructureDice {Castle,Forest,Town,Camp,Empty};
+    public RollResults RollDice()
     {
         BiomDice biomDice = (BiomDice)Random.Range(0, 6);
-        StructureDice structureDice = (StructureDice)Random.Range(0, 6);
-        Debug.Log($"{biomDice} {structureDice}");
+        StructureDice structureDice = (StructureDice)Random.Range(0, 5);
+        return new RollResults(biomDice, structureDice);
+    }
+    public class RollResults
+    {
+        public BiomDice biomDice;
+        public StructureDice structureDice;
+        public RollResults(BiomDice biomDice,StructureDice structureDice)
+        {
+            this.biomDice = biomDice;
+            this.structureDice = structureDice;
+        }
     }
 }
