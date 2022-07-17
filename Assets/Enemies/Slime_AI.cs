@@ -15,6 +15,7 @@ public class Slime_AI : MonoBehaviour
     public Animator anim;
     void Start()
     {
+        Target = GameObject.FindGameObjectWithTag("Player").transform;
         nav = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
     }

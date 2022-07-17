@@ -11,10 +11,15 @@ public class CombatSystem : MonoBehaviour
     public Transform ArrowPoint;
     public float ArrowSpeed;
     public int CurDmg;
+    public AudioClip Sword;
     void Start()
     {
         inven = GetComponent<Inventory>();
         anim = GetComponent<Animator>();
+        if (PlayerPrefs.HasKey("Damage"))
+        {
+            CurDmg =(int)(CurDmg * PlayerPrefs.GetFloat("Damage"));
+        }
     }
 
     // Update is called once per frame
@@ -23,7 +28,7 @@ public class CombatSystem : MonoBehaviour
         if (inven.CurWeapon)
         {
             if (inven.CurSlot.type == Type.ranged)
-                if (Input.GetMouseButtonDown(1))
+                if (Input.GetMouseButtonDown(0))
                 {
                     anim.SetTrigger("Shot");
                     GameObject arrow = Instantiate(Arrow, ArrowPoint.transform.forward, Quaternion.identity);
@@ -37,10 +42,10 @@ public class CombatSystem : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     anim.SetTrigger("Attack");
-                    Collider[] col = Physics.OverlapSphere(transform.position, 2);
+                    Collider[] col = Physics.OverlapSphere(transform.position, 2.5f);
                     foreach(Collider enemy in col)
                         if(enemy.GetComponent<Health>())
-                            if(enemy.tag != "Player")
+                            if(enemy.tag == "Enemy")
                                 enemy.GetComponent<Health>().DamageMe(CurDmg);
                 }
             }
