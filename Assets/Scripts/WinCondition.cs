@@ -12,8 +12,9 @@ public class WinCondition : MonoBehaviour
     }
     IEnumerator AwaitWinCorountine()
     {
-        for(int i = 0; i < 1000; i++)
+        for(; PlayerPrefs.GetInt("Win")==1;)
         {
+            Debug.Log("sss");
             yield return new WaitForSeconds(0.01f);
         }
         SceneManager.UnloadSceneAsync("Forest"); 
