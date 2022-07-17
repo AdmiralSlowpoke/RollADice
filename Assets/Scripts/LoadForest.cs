@@ -11,7 +11,7 @@ public class LoadForest : MonoBehaviour
     public MeshRenderer mesh;
     void Start()
     {
-        int biome = PlayerPrefs.GetInt("Biome");
+        int biome = PlayerPrefs.HasKey("Biome") ? PlayerPrefs.GetInt("Biome") : (int)DiceRoll.BiomDice.Meadow;
         GenerateLand((DiceRoll.BiomDice)biome);
         GenerateForest((DiceRoll.BiomDice)biome);
     }
