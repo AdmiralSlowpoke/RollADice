@@ -11,7 +11,8 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(PlayerPrefs.HasKey("Health"))
+        _health = (int)(_health * PlayerPrefs.GetFloat("Health"));
     }
 
     // Update is called once per frame

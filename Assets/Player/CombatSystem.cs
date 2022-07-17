@@ -15,6 +15,10 @@ public class CombatSystem : MonoBehaviour
     {
         inven = GetComponent<Inventory>();
         anim = GetComponent<Animator>();
+        if (PlayerPrefs.HasKey("Damage"))
+        {
+            CurDmg =(int)(CurDmg * PlayerPrefs.GetFloat("Damage"));
+        }
     }
 
     // Update is called once per frame
