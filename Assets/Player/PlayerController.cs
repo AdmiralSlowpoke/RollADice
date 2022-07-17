@@ -34,6 +34,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(GameObject.FindGameObjectsWithTag("Enemy").Length);
+        if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+            PlayerPrefs.SetInt("Win", 1);
         //Player Controll
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");

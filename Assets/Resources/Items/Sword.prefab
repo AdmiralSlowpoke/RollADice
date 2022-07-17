@@ -96,13 +96,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f53f77c510de3459eb9ff364ca17be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 15
   type: 0
   Prefab: Items/Sword
   Icon: Icons/Sword
   rot: {x: 176.86, y: -20.495, z: 180}
   pos: {x: -0.094, y: -0.029, z: -0.041}
   _isRHand: 1
+  _isPickedUp: 0
 --- !u!65 &530298865857556836
 BoxCollider:
   m_ObjectHideFlags: 0

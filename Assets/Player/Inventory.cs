@@ -18,12 +18,17 @@ public class Inventory : MonoBehaviour
     public Transform L_hand;
     public Transform R_hand;
     public GameObject CurWeapon;
+    public AudioClip Sword;
     [HideInInspector]
     public ItemInfo CurSlot;
     private int CurSID;
     void Start()
     {
-        
+        //Add Start Items
+        GameObject go = Instantiate(Resources.Load<GameObject>("Items/Sword"), transform.position, Quaternion.identity);
+        AddItem(go.GetComponent<ItemInfo>());
+        GameObject go1 = Instantiate(Resources.Load<GameObject>("Items/Bow"), transform.position, Quaternion.identity);
+        AddItem(go1.GetComponent<ItemInfo>());
     }
 
     // Update is called once per frame
@@ -57,6 +62,8 @@ public class Inventory : MonoBehaviour
                 GetComponent<CombatSystem>().CurDmg = Slot1.damage;
                 _iSlot1.transform.parent.GetComponent<Image>().color = new Color(0, 142, 0);
                 _iSlot2.transform.parent.GetComponent<Image>().color = new Color(0, 0, 0);
+                if(Slot1.type == Type.melee)
+                    GetComponent<CombatSystem>().gameObject.GetComponent<AudioSource>().PlayOneShot(Sword);
             }
         if (_Slot2)
             if (Input.GetKeyDown(KeyCode.Alpha2))
@@ -66,6 +73,8 @@ public class Inventory : MonoBehaviour
                 GetComponent<CombatSystem>().CurDmg = Slot2.damage;
                 _iSlot2.transform.parent.GetComponent<Image>().color = new Color(0, 142, 0);
                 _iSlot1.transform.parent.GetComponent<Image>().color = new Color(0, 0, 0);
+                if (Slot2.type == Type.melee)
+                    GetComponent<CombatSystem>().gameObject.GetComponent<AudioSource>().PlayOneShot(Sword);
             }
         if(Input.GetMouseButtonDown(0))
         {
