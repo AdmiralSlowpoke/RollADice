@@ -13,23 +13,20 @@ public class PlayerController : MonoBehaviour
     public float MoveSpeed;
     public LayerMask mask;
     public Transform vector;
+    public Transform look;
     public float RollForce;
-    public float speedRotation = 2f;
-    public float minY = -90f;
-    public float maxY = 90f;
-
-    float cameraPitch = 0.0f;
-    Vector2 currentMouseDelta = Vector2.zero;
-    Vector2 currentMouseDeltaVelocity = Vector2.zero;
-    [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
+    public float sensetivity;
 
 
+    private float currentY;
     private Vector3 velocity = Vector3.zero;
     private Animator animator;
     void Start()
     {
+        currentY = Cam.transform.rotation.eulerAngles.x;
         Cont = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
+       // Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -58,20 +55,24 @@ public class PlayerController : MonoBehaviour
         //Player Gravity
         if (!Cont.isGrounded)
             Cont.Move(Physics.gravity * Time.deltaTime);
-
-
         //Player Look
-        Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-
-        currentMouseDelta = Vector2.SmoothDamp(currentMouseDelta, targetMouseDelta, ref currentMouseDeltaVelocity, mouseSmoothTime);
-        Cam.transform.localEulerAngles = Vector3.right * cameraPitch;
-        //Ray ray = Cam.ScreenPointToRay(Input.mousePosition);
-        //RaycastHit hit;
-        //if (Physics.Raycast(ray, out hit, mask))
-        //    transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
-        // vector.LookAt(Input.mousePosition);
+        //float mX = Input.GetAxis("Mouse X");
+        //float mY = Input.GetAxis("Mouse Y");
+        //if (mX != 0)
+        //    transform.Rotate(transform.up * mX * sensetivity * Time.deltaTime);
+        //if (mY != 0)
+        //{
+        //    currentY = Mathf.Clamp(currentY - mY * sensetivity * Time.deltaTime, -90f, 90f);
+        //    Vector3 camRotation = Cam.transform.rotation.eulerAngles;
+        //    Cam.transform.rotation = Quaternion.Euler(currentY, camRotation.y, camRotation.z);
+        //}
+        Ray ray = Cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, mask))
+            transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z+Mathf.Sin(55)));
+        //vector.LookAt(Input.mousePosition);
         //Player Roll
-        //if(Input.GetKeyDown(KeyCode.Space))
+        //    if (Input.GetKeyDown(KeyCode.Space))
         //{
         //    animator.SetTrigger("Roll");
         //    Cont.Move(transform.forward * Time.deltaTime * RollForce);
