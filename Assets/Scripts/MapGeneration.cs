@@ -8,13 +8,10 @@ public class MapGeneration : MonoBehaviour
     public MapSO mapSO;
     [SerializeField]
     public GameObject hexagon;
+    public GameObject map;
     private void Start()
     {
         GenerateLevel();
-    }
-    public void Reroll()
-    {
-        //hex.GetComponent<WorldMapHexagon>().LoadHex(transform.GetComponent<DiceRoll>().RollDice());
     }
     public void GenerateLevel()
     {
@@ -29,6 +26,7 @@ public class MapGeneration : MonoBehaviour
                     xPos += objSize.x / 2f;
                 }
                 GameObject temp=Instantiate(hexagon, new Vector3(xPos, 0, j * objSize.x - (j * 0.14f)), Quaternion.identity);
+                temp.transform.parent = map.transform;
                 if (i == 0 && j == 0)
                 {
                     temp.GetComponent<WorldMapHexagon>().LoadHex(new DiceRoll.RollResults(DiceRoll.BiomDice.Meadow, DiceRoll.StructureDice.Empty));

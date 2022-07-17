@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -16,10 +17,12 @@ public class MapPlayer : MonoBehaviour
     public AudioClip diceRollSound;
     public List<AudioClip>textAppearSound;
     public AudioSource audioSource;
+    public GameObject map;
     private DiceRoll diceRoll;
     private void Start()
     {
         diceRoll = GameObject.Find("MapInfo").GetComponent<DiceRoll>();
+        CheckHex();
     }
     public void CheckHex()
     {
@@ -90,12 +93,26 @@ public class MapPlayer : MonoBehaviour
             {
                 if (hit.transform.GetComponentInParent<WorldMapHexagon>())
                 {
-                    foreach (Collider col in colliders)
+                    for(int i = 0; i < colliders.Count; i++)
                     {
-                        if (col == hit.collider)
+                        if (colliders[i] == hit.collider)
                         {
-                            transform.position = col.transform.position+new Vector3(0,transform.localPosition.y,0);
+                            PlayerPrefs.SetInt("Biome", (int)hit.transform.GetComponentInParent<WorldMapHexagon>().rollResults.biomDice);
+                            transform.position = colliders[i].transform.position+new Vector3(0,transform.position.y,0);
+                            if (hit.transform.GetComponentInParent<WorldMapHexagon>().rollResults.structureDice == DiceRoll.StructureDice.Forest)
+                                SceneManager.LoadScene("Forest", LoadSceneMode.Additive);
+                            colliders.Clear();
+                            break;
                         } 
+                    }
+                    if (SceneManager.sceneCount > 1)
+                    {
+                        FindObjectOfType<WinCondition>().AwaitWin();
+                        map.SetActive(false);
+                    }
+                    else
+                    {
+                        CheckHex();
                     }
                 }
             }

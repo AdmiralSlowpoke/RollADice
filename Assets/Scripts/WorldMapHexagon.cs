@@ -9,8 +9,10 @@ public class WorldMapHexagon : MonoBehaviour
     [SerializeField]
     private GameObject structure;
     public int x, y;
+    public DiceRoll.RollResults rollResults;
     public void LoadHex(DiceRoll.RollResults rollResults)
     {
+        this.rollResults = rollResults;
         MapSO mapSO = GameObject.Find("MapInfo").GetComponent<MapGeneration>().mapSO;
         if(rollResults.biomDice==DiceRoll.BiomDice.Empty) hexagon.GetComponent<MeshFilter>().mesh = mapSO.biomes[6].GetComponent<MeshFilter>().sharedMesh;
         else
