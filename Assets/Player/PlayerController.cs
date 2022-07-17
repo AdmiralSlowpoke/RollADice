@@ -26,7 +26,9 @@ public class PlayerController : MonoBehaviour
         currentY = Cam.transform.rotation.eulerAngles.x;
         Cont = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-       // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
+        if(PlayerPrefs.HasKey("Speed"))
+            MoveSpeed = MoveSpeed * PlayerPrefs.GetFloat("Speed");
     }
 
     // Update is called once per frame

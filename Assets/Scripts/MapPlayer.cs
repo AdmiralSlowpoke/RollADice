@@ -18,6 +18,7 @@ public class MapPlayer : MonoBehaviour
     public List<AudioClip>textAppearSound;
     public AudioSource audioSource;
     public GameObject map;
+    public GameObject VillageImg, CastleImg, CampImg;
     private DiceRoll diceRoll;
     private void Start()
     {
@@ -99,23 +100,46 @@ public class MapPlayer : MonoBehaviour
                         {
                             PlayerPrefs.SetInt("Biome", (int)hit.transform.GetComponentInParent<WorldMapHexagon>().rollResults.biomDice);
                             transform.position = colliders[i].transform.position+new Vector3(0,transform.position.y,0);
-                            if (hit.transform.GetComponentInParent<WorldMapHexagon>().rollResults.structureDice == DiceRoll.StructureDice.Forest)
-                                SceneManager.LoadScene("Forest", LoadSceneMode.Additive);
+                            switch (hit.transform.GetComponentInParent<WorldMapHexagon>().rollResults.structureDice)
+                            {
+                                case DiceRoll.StructureDice.Forest:
+                                    SceneManager.LoadScene("Forest", LoadSceneMode.Additive);
+                                    break;
+                                case DiceRoll.StructureDice.Castle:
+                                    StartCoroutine(LevelUpAnim(CastleImg));
+                                    PlayerPrefs.SetFloat("Damage", PlayerPrefs.GetFloat("Damage") + 0.15f);
+                                    break;
+                                case DiceRoll.StructureDice.Town:
+                                    StartCoroutine(LevelUpAnim(VillageImg));
+                                    PlayerPrefs.SetFloat("Health", PlayerPrefs.GetFloat("Health") + 0.15f);
+                                    break;
+                                case DiceRoll.StructureDice.Camp:
+                                    StartCoroutine(LevelUpAnim(CampImg));
+                                    PlayerPrefs.SetFloat("Speed", PlayerPrefs.GetFloat("Speed") + 0.15f);
+                                    break;
+                                case DiceRoll.StructureDice.Empty:
+                                    CheckHex();
+                                    break;
+                            }
                             colliders.Clear();
+                            if (SceneManager.sceneCount > 1)
+                            {
+                                FindObjectOfType<WinCondition>().AwaitWin();
+                                map.SetActive(false);
+                            }
                             break;
                         } 
-                    }
-                    if (SceneManager.sceneCount > 1)
-                    {
-                        FindObjectOfType<WinCondition>().AwaitWin();
-                        map.SetActive(false);
-                    }
-                    else
-                    {
-                        CheckHex();
                     }
                 }
             }
         }
+    }
+    public IEnumerator LevelUpAnim(GameObject obj)
+    {
+        obj.SetActive(true);
+        obj.GetComponent<Animator>().Play("ImageAnim");
+        yield return new WaitForSeconds(3f);
+        obj.SetActive(false);
+        CheckHex();
     }
 }
