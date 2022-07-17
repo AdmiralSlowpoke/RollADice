@@ -128,6 +128,7 @@ MonoBehaviour:
   damage: 15
   type: 1
   Prefab: Items/Bow
+  Icon: Icons/Bow
   rot: {x: -14.216, y: 176.927, z: -10.767}
   pos: {x: 0.11800077, y: 0.01900372, z: 0.062002055}
-  handed: 0
+  _isRHand: 0

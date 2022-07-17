@@ -10,6 +10,7 @@ public class CombatSystem : MonoBehaviour
     public GameObject Arrow;
     public Transform ArrowPoint;
     public float ArrowSpeed;
+    public int CurDmg;
     void Start()
     {
         inven = GetComponent<Inventory>();
@@ -19,15 +20,30 @@ public class CombatSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(inven.CurWeapon)
-            if(inven.CurWeapon.name == "Bow(Clone)")
+        if (inven.CurWeapon)
+        {
+            if (inven.CurSlot.type == Type.ranged)
                 if (Input.GetMouseButtonDown(1))
                 {
                     anim.SetTrigger("Shot");
-                    GameObject arrow = Instantiate(Arrow,ArrowPoint.transform.forward,Quaternion.identity);
+                    GameObject arrow = Instantiate(Arrow, ArrowPoint.transform.forward, Quaternion.identity);
                     arrow.transform.rotation = Quaternion.Euler(90, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
                     arrow.transform.position = ArrowPoint.position;
                     arrow.GetComponent<Rigidbody>().AddForce(ArrowPoint.forward * ArrowSpeed);
+                    arrow.GetComponent<ArrowPiercing>().dmg = CurDmg;
                 }
+            if(inven.CurSlot.type == Type.melee)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    anim.SetTrigger("Attack");
+                    Collider[] col = Physics.OverlapSphere(transform.position, 2);
+                    foreach(Collider enemy in col)
+                        if(enemy.GetComponent<Health>())
+                            if(enemy.tag != "Player")
+                                enemy.GetComponent<Health>().DamageMe(CurDmg);
+                }
+            }
+        }
     }
 }
