@@ -15,11 +15,11 @@ C:/Users/Maxim/Documents/GitHub/RollADice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59466
+58392
 Successfully changed project path to: C:/Users/Maxim/Documents/GitHub/RollADice
 C:/Users/Maxim/Documents/GitHub/RollADice
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 19.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1110 +35,589 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001880 seconds.
+Registered in 0.002050 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 20.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.183 seconds
+- Completed reload, in  1.905 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000556 seconds.
+Registered in 0.000548 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.657 seconds
+- Completed reload, in  0.648 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.3 MB.
+System memory in use before: 57.4 MB.
 System memory in use after: 57.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1563.
-Total: 1.224100 ms (FindLiveObjects: 0.093700 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.040200 ms  DeleteObjects: 0.058400 ms)
+Total: 1.233800 ms (FindLiveObjects: 0.094000 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.052900 ms  DeleteObjects: 0.057900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Images
-  artifactKey: Guid(9b1373fa0ce44bd4cb11add586b786f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images using Guid(9b1373fa0ce44bd4cb11add586b786f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d3149f1e7ed7601adbfcf70889856') in 0.006254 seconds
-  Import took 0.008004 seconds .
+  path: Assets/Main.mixer
+  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352ccdb09a638859b3f76c9692f32edd') in 0.043160 seconds
+  Import took 0.044595 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.002735 seconds.
-  path: Assets/Images/at-sea.png
-  artifactKey: Guid(e09243f05317bb14cb418350a23ac121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/at-sea.png using Guid(e09243f05317bb14cb418350a23ac121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e470977821d9e7ffb2118ec26ba2afa') in 0.089719 seconds
-  Import took 0.091152 seconds .
+  Time since last request: 7.876600 seconds.
+  path: Assets/Scenes/Forest.unity
+  artifactKey: Guid(9ba4c97f0071f1b4eb525a543e72148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Forest.unity using Guid(9ba4c97f0071f1b4eb525a543e72148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c970ea399bf9ae584576124b6043a4') in 0.004785 seconds
+  Import took 0.006334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Images/castle.png
-  artifactKey: Guid(76a9fdc93a18b0948b75ed61d6b7eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/castle.png using Guid(76a9fdc93a18b0948b75ed61d6b7eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fd4022c630e94cccc22e5b4e7295cd') in 0.008094 seconds
-  Import took 0.014696 seconds .
+  Time since last request: 0.000625 seconds.
+  path: Assets/Scenes/Forest.unity
+  artifactKey: Guid(9ba4c97f0071f1b4eb525a543e72148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Forest.unity using Guid(9ba4c97f0071f1b4eb525a543e72148e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c970ea399bf9ae584576124b6043a4') in 0.002069 seconds
+  Import took 0.003434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Images/hills.png
-  artifactKey: Guid(d671ea4634d1a874a820c2eac6396db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/hills.png using Guid(d671ea4634d1a874a820c2eac6396db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a015f56cd7fdcc76443cefc2365f97') in 0.007797 seconds
-  Import took 0.009255 seconds .
+  Time since last request: 267.650304 seconds.
+  path: Assets/Material
+  artifactKey: Guid(57a1474ad3013b04ea86d1b6cb74dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(57a1474ad3013b04ea86d1b6cb74dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604138b0c38310cfd5fa43ef8d99a09f') in 0.005047 seconds
+  Import took 0.006794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.993506 seconds.
+  path: Assets/Material/Grass.mat
+  artifactKey: Guid(aa6573f37e375c743abda60c56af5c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Grass.mat using Guid(aa6573f37e375c743abda60c56af5c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec35d3dce50dc1be28e5cfe9c5141b3') in 0.079020 seconds
+  Import took 0.080585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.671516 seconds.
+  path: Assets/Material/Grass.mat
+  artifactKey: Guid(aa6573f37e375c743abda60c56af5c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Grass.mat using Guid(aa6573f37e375c743abda60c56af5c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0573b2968aa17fa4b3ddb23c8a62d01d') in 0.010945 seconds
+  Import took 0.012586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.775582 seconds.
+  path: Assets/Cartoon PalmTree and Umbrella
+  artifactKey: Guid(9fdab1f2ce7f09a4f82c386c3b467eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon PalmTree and Umbrella using Guid(9fdab1f2ce7f09a4f82c386c3b467eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02937e08fc62dc87c39b0216373923b5') in 0.004855 seconds
+  Import took 0.011377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051993 seconds.
+  path: Assets/Cartoon PalmTree and Umbrella/Beach_Tile.png
+  artifactKey: Guid(ac72fbfea88a4d04085196ee2dbb01e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon PalmTree and Umbrella/Beach_Tile.png using Guid(ac72fbfea88a4d04085196ee2dbb01e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f6921d64329465f5fd18e554c879bc') in 0.048870 seconds
+  Import took 0.050495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.714486 seconds.
+  path: Assets/Cartoon PalmTree and Umbrella/Palmtree
+  artifactKey: Guid(04954ad895a61f34b975262f671950d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon PalmTree and Umbrella/Palmtree using Guid(04954ad895a61f34b975262f671950d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015020deb80615895d5e93566cd21d47') in 0.004892 seconds
+  Import took 0.006442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052349 seconds.
+  path: Assets/Cartoon PalmTree and Umbrella/Palmtree/Palmtree.prefab
+  artifactKey: Guid(4dd1e9d81689b8c45892550d2670fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon PalmTree and Umbrella/Palmtree/Palmtree.prefab using Guid(4dd1e9d81689b8c45892550d2670fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab97d548ec9a70bdd54db707963afbcb') in 0.092455 seconds
+  Import took 0.094294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.978250 seconds.
+  path: Assets/Downtown Game Studio
+  artifactKey: Guid(998fe4305647fb54ebf8dde30f7bb497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio using Guid(998fe4305647fb54ebf8dde30f7bb497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc9c726713c1e85a8c5bada4d12404') in 0.006125 seconds
+  Import took 0.007938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.274407 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes
+  artifactKey: Guid(8f7b4ba3b555f2541939546e9b0b501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes using Guid(8f7b4ba3b555f2541939546e9b0b501f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46aa132a9191fe670cdb5eedd51cc481') in 0.004952 seconds
+  Import took 0.006504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.000155 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models
+  artifactKey: Guid(931507ac8a6d37246aff8f318459ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Models using Guid(931507ac8a6d37246aff8f318459ea43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110cb1024046220aa026ea6039a475b4') in 0.004972 seconds
+  Import took 0.006428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.458372 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs
+  artifactKey: Guid(a6be8cac79645f241b6aee986e0d4b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs using Guid(a6be8cac79645f241b6aee986e0d4b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc1d8d997fcd4f7493c215e5526176a') in 0.004676 seconds
+  Import took 0.006251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047787 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background1.prefab
+  artifactKey: Guid(593794403c8dab2449e17db5068b1251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background1.prefab using Guid(593794403c8dab2449e17db5068b1251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f6693e824716bb1297dee9bf7343a') in 0.009560 seconds
+  Import took 0.011270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Bush 2.prefab
+  artifactKey: Guid(9c90430fdda32824ab31504372faa134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Bush 2.prefab using Guid(9c90430fdda32824ab31504372faa134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f8077a8de76a4320219bd1769ec538') in 0.012542 seconds
+  Import took 0.014212 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000128 seconds.
-  path: Assets/Images/death-skull.png
-  artifactKey: Guid(6742e294a8693b142a3f9d9826508ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/death-skull.png using Guid(6742e294a8693b142a3f9d9826508ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee82cc9125ae611be1e19f2ea719a294') in 0.007663 seconds
-  Import took 0.009024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Images/forest.png
-  artifactKey: Guid(bda0b313f65067747b9a8d8142997de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/forest.png using Guid(bda0b313f65067747b9a8d8142997de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3134c4c3ef1e7c9a689f355f67098e86') in 0.008203 seconds
-  Import took 0.009785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Images/village.png
-  artifactKey: Guid(8c9da1bf686bf724396b6e5be8f7e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/village.png using Guid(8c9da1bf686bf724396b6e5be8f7e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89229f350e97dba305a6734f5d947e14') in 0.007377 seconds
-  Import took 0.009175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Images/caldera.png
-  artifactKey: Guid(8f2864ccc03a74540ba1022d2e8422d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/caldera.png using Guid(8f2864ccc03a74540ba1022d2e8422d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdbbbc5d505b2f150787e69e1dd28f7') in 0.011444 seconds
-  Import took 0.013216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Images/camping-tent (1).png
-  artifactKey: Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/camping-tent (1).png using Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654d88d6377381e83374fcca39da8683') in 0.008946 seconds
-  Import took 0.010527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Images/camping-tent.png
-  artifactKey: Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/camping-tent.png using Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e0d676db00ee946276b27b68a15b7') in 0.007370 seconds
-  Import took 0.008662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Images/desert.png
-  artifactKey: Guid(f78a90daf63e3ea4186d3153a3eaf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/desert.png using Guid(f78a90daf63e3ea4186d3153a3eaf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc055f872f9ad480a0d605998125aa70') in 0.013501 seconds
-  Import took 0.015195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Images/camping-tent.png
-  artifactKey: Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/camping-tent.png using Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e0d676db00ee946276b27b68a15b7') in 0.014317 seconds
-  Import took 0.015600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Images/snowflake-2.png
-  artifactKey: Guid(543e382475f92f4488499da63d926751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/snowflake-2.png using Guid(543e382475f92f4488499da63d926751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcce51e62dc03dea16948e354c5ea36c') in 0.007923 seconds
-  Import took 0.009740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.458113 seconds.
-  path: Assets/Images/at-sea.png
-  artifactKey: Guid(e09243f05317bb14cb418350a23ac121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/at-sea.png using Guid(e09243f05317bb14cb418350a23ac121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e472291c6e9e1912f792fa12d16d9b') in 0.037451 seconds
-  Import took 0.039139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Images/castle.png
-  artifactKey: Guid(76a9fdc93a18b0948b75ed61d6b7eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/castle.png using Guid(76a9fdc93a18b0948b75ed61d6b7eaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ba5ec1b7342eecb2e200e2fc382f31') in 0.016211 seconds
-  Import took 0.018041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Images/hills.png
-  artifactKey: Guid(d671ea4634d1a874a820c2eac6396db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/hills.png using Guid(d671ea4634d1a874a820c2eac6396db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6716b80c4058f8d68e4434a588f228d7') in 0.019174 seconds
-  Import took 0.020901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Images/death-skull.png
-  artifactKey: Guid(6742e294a8693b142a3f9d9826508ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/death-skull.png using Guid(6742e294a8693b142a3f9d9826508ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d374889f383f38e8cf3b4969cea0b3c') in 0.024559 seconds
-  Import took 0.026364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Images/forest.png
-  artifactKey: Guid(bda0b313f65067747b9a8d8142997de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/forest.png using Guid(bda0b313f65067747b9a8d8142997de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918f715b2d2482999cbd422afdb11d14') in 0.019318 seconds
-  Import took 0.020813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Images/village.png
-  artifactKey: Guid(8c9da1bf686bf724396b6e5be8f7e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/village.png using Guid(8c9da1bf686bf724396b6e5be8f7e95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef217eac85963932e39b1f3504ebc715') in 0.015066 seconds
-  Import took 0.016723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Images/caldera.png
-  artifactKey: Guid(8f2864ccc03a74540ba1022d2e8422d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/caldera.png using Guid(8f2864ccc03a74540ba1022d2e8422d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a114448a5ed31fe73ac3dcacc16f08c') in 0.015924 seconds
-  Import took 0.017477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Images/camping-tent (1).png
-  artifactKey: Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/camping-tent (1).png using Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b73d4639cf14c0d01d2e298749b1b8') in 0.016535 seconds
-  Import took 0.018113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Images/camping-tent.png
-  artifactKey: Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/camping-tent.png using Guid(7d18dbe88bf71f243944d72d593236b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2be6b30d2dbacc9f079e8ef89b986f1') in 0.010845 seconds
-  Import took 0.012736 seconds .
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 2.prefab
+  artifactKey: Guid(6f46e1a4008d02f44b604a3be2a12441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 2.prefab using Guid(6f46e1a4008d02f44b604a3be2a12441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9878ac9b6b7e6c43cf5101237b594e') in 0.009291 seconds
+  Import took 0.010821 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000122 seconds.
-  path: Assets/Images/desert.png
-  artifactKey: Guid(f78a90daf63e3ea4186d3153a3eaf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/desert.png using Guid(f78a90daf63e3ea4186d3153a3eaf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833486012b1e2f955701cb6ad4bc0331') in 0.015618 seconds
-  Import took 0.017305 seconds .
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab
+  artifactKey: Guid(535f7485ff0b12241827da63c536c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab using Guid(535f7485ff0b12241827da63c536c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3f2a3003f5c36ac4d9443e309ef30a') in 0.009723 seconds
+  Import took 0.011161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Images/snowflake-2.png
-  artifactKey: Guid(543e382475f92f4488499da63d926751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/snowflake-2.png using Guid(543e382475f92f4488499da63d926751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6a215ddfa49dfc7afc50890a578462') in 0.017799 seconds
-  Import took 0.019272 seconds .
+  Time since last request: 0.000125 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab
+  artifactKey: Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab using Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a407d34783f4e21cf2e7a21822fd520') in 0.010086 seconds
+  Import took 0.011652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.693665 seconds.
-  path: Assets/Images/empty.png
-  artifactKey: Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/empty.png using Guid(7c73ccdb889eb0841beb5b7682fa7e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3991abc5f62bd7dee99ecf1f0768e42c') in 0.023275 seconds
-  Import took 0.025442 seconds .
+  Time since last request: 0.000132 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab
+  artifactKey: Guid(74a548f02121cb54eb43cb42314531f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab using Guid(74a548f02121cb54eb43cb42314531f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0578c5116ef36e1cd249cf46f98c827c') in 0.012356 seconds
+  Import took 0.014419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.680432 seconds.
-  path: Assets/Images/panelInset_brown.png
-  artifactKey: Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/panelInset_brown.png using Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbb010197bf35ca912dba1144959bc1') in 0.010332 seconds
-  Import took 0.011847 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab
+  artifactKey: Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab using Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8505e15d7caf5f57fef20f521e6e19f') in 0.015154 seconds
+  Import took 0.017736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 141.576494 seconds.
-  path: Assets/Images/buttonSquare_grey.png
-  artifactKey: Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/buttonSquare_grey.png using Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddf57751edeebc823c938a92fcfc96c') in 0.019792 seconds
-  Import took 0.022039 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab
+  artifactKey: Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab using Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b0c1fb2cdd42bb9f12e6ae16eacb6d') in 0.015197 seconds
+  Import took 0.017706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010089 seconds.
-  path: Assets/Images/buttonSquare_grey.png
-  artifactKey: Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/buttonSquare_grey.png using Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddf57751edeebc823c938a92fcfc96c') in 0.023110 seconds
-  Import took 0.024745 seconds .
+  Time since last request: 0.000133 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab
+  artifactKey: Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 2.prefab using Guid(406ca595d3f7dc849b6d4fcebdc060e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8505e15d7caf5f57fef20f521e6e19f') in 0.015921 seconds
+  Import took 0.018498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.916255 seconds.
-  path: Assets/Images/buttonSquare_grey.png
-  artifactKey: Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/buttonSquare_grey.png using Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa34cfe607dbfe38786da61919624a9') in 0.011615 seconds
-  Import took 0.013602 seconds .
+  Time since last request: 0.000136 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 3.prefab
+  artifactKey: Guid(dd8c145e62469574c8988c6d5ce0db70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 3.prefab using Guid(dd8c145e62469574c8988c6d5ce0db70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117220c5b75f4a8aa63a65fac3542f4c') in 0.018007 seconds
+  Import took 0.020854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Images/buttonSquare_grey.png
-  artifactKey: Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/buttonSquare_grey.png using Guid(a9c02c658c7d41f4aaf27f8d65b93757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa34cfe607dbfe38786da61919624a9') in 0.012730 seconds
-  Import took 0.014244 seconds .
+  Time since last request: 0.000149 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab
+  artifactKey: Guid(5e71f9539db1ae246a25939dafb13650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab using Guid(5e71f9539db1ae246a25939dafb13650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca70da6e2d6b67909e4e9304c030d27') in 0.016475 seconds
+  Import took 0.018674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.353070 seconds.
-  path: Assets/Images/panelInset_brown.png
-  artifactKey: Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/panelInset_brown.png using Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e78156b179cf9428263c68455308d73') in 0.011196 seconds
-  Import took 0.013108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.147918 seconds.
-  path: Assets/Images/panelInset_brown.png
-  artifactKey: Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/panelInset_brown.png using Guid(18263e0d4b2fbd4488841f4ddd2bf4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a06f4c3ebfd3c9f0d4e9050d9b2a3') in 0.030046 seconds
-  Import took 0.031608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 396.157295 seconds.
-  path: Assets/Images/Cinzel-VariableFont_wght.ttf
-  artifactKey: Guid(c4403f1b6448b6f428f9468d72eee869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Cinzel-VariableFont_wght.ttf using Guid(c4403f1b6448b6f428f9468d72eee869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d89bbbf7497868695071998ce0e880') in 0.060457 seconds
-  Import took 0.062247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.683281 seconds.
-  path: Assets/Images/Cinzel-ExtraBold.ttf
-  artifactKey: Guid(218f4b2dc06db5445a67bfed5ea3f378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Cinzel-ExtraBold.ttf using Guid(218f4b2dc06db5445a67bfed5ea3f378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a729e3fa9d88f07509cd1c83ea82e3') in 0.016916 seconds
-  Import took 0.018663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000816 seconds.
-  path: Assets/Images/Cinzel-ExtraBold.ttf
-  artifactKey: Guid(218f4b2dc06db5445a67bfed5ea3f378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Cinzel-ExtraBold.ttf using Guid(218f4b2dc06db5445a67bfed5ea3f378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a729e3fa9d88f07509cd1c83ea82e3') in 0.015932 seconds
-  Import took 0.017439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.765929 seconds.
-  path: Assets/Images/Cinzel-Medium.ttf
-  artifactKey: Guid(da259f4cbe18f744cb79759bec741edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Cinzel-Medium.ttf using Guid(da259f4cbe18f744cb79759bec741edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f18bfb0b23f14d3a4ac2cfa1764df80') in 0.009039 seconds
-  Import took 0.010838 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000556 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.126700 ms (FindLiveObjects: 0.092200 ms CreateObjectMapping: 0.026900 ms MarkObjects: 0.975400 ms  DeleteObjects: 0.031600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001260 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
-Total: 1.146600 ms (FindLiveObjects: 0.094900 ms CreateObjectMapping: 0.026200 ms MarkObjects: 0.989000 ms  DeleteObjects: 0.036000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000558 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.169700 ms (FindLiveObjects: 0.100100 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.006300 ms  DeleteObjects: 0.033900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000597 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
-Total: 1.577900 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.312200 ms  DeleteObjects: 0.055300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000552 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.425900 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.238700 ms  DeleteObjects: 0.047700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000540 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
-Total: 1.128100 ms (FindLiveObjects: 0.090300 ms CreateObjectMapping: 0.027300 ms MarkObjects: 0.977000 ms  DeleteObjects: 0.032700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1636.
-Total: 1.416800 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.205200 ms  DeleteObjects: 0.034400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1639.
-Total: 1.178000 ms (FindLiveObjects: 0.106700 ms CreateObjectMapping: 0.029500 ms MarkObjects: 1.007000 ms  DeleteObjects: 0.034000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1642.
-Total: 1.167500 ms (FindLiveObjects: 0.092000 ms CreateObjectMapping: 0.025700 ms MarkObjects: 1.013300 ms  DeleteObjects: 0.035900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 1.139100 ms (FindLiveObjects: 0.094000 ms CreateObjectMapping: 0.026500 ms MarkObjects: 0.985200 ms  DeleteObjects: 0.032700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000787 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1648.
-Total: 1.466100 ms (FindLiveObjects: 0.100500 ms CreateObjectMapping: 0.027300 ms MarkObjects: 1.301900 ms  DeleteObjects: 0.035600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1223.076184 seconds.
-  path: Assets/SO/MapSO.asset
-  artifactKey: Guid(f041d01928c302147828e0f9e95a7dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SO/MapSO.asset using Guid(f041d01928c302147828e0f9e95a7dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35acd908b848e422e7056b41d08b1edd') in 0.036845 seconds
-  Import took 0.039012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.559481 seconds.
-  path: Assets/Prefabs/Hexagon.prefab
-  artifactKey: Guid(4a03a7612b9771740a2eb9617f361d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hexagon.prefab using Guid(4a03a7612b9771740a2eb9617f361d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5b6ee3c7d1299f416eac88b851c45') in 0.051694 seconds
-  Import took 0.053801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002814 seconds.
-  path: Assets/Prefabs/Hexagon.prefab
-  artifactKey: Guid(4a03a7612b9771740a2eb9617f361d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Hexagon.prefab using Guid(4a03a7612b9771740a2eb9617f361d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5b6ee3c7d1299f416eac88b851c45') in 0.007409 seconds
-  Import took 0.009202 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
-Total: 1.137400 ms (FindLiveObjects: 0.094000 ms CreateObjectMapping: 0.026000 ms MarkObjects: 0.985000 ms  DeleteObjects: 0.031800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1655.
-Total: 1.229800 ms (FindLiveObjects: 0.096100 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.068800 ms  DeleteObjects: 0.037900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 359.212688 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(4fe21a73032aacd48937f2bcbc4d86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(4fe21a73032aacd48937f2bcbc4d86ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8300f65ce2781ceabd20de0b5ef6d38') in 0.006819 seconds
-  Import took 0.008478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.985553 seconds.
-  path: Assets/Audio/SFX
-  artifactKey: Guid(e520267cb7c390449afc3414121e334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX using Guid(e520267cb7c390449afc3414121e334b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6b68b3fc0ae3fec24ab64474525c5') in 0.005695 seconds
-  Import took 0.012571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.935867 seconds.
-  path: Assets/Audio/Music
-  artifactKey: Guid(f2116f5a822490c46b55f77971924959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music using Guid(f2116f5a822490c46b55f77971924959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd345a9d9215f992ffef0c4200051c2') in 0.004811 seconds
-  Import took 0.006604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.437758 seconds.
-  path: Assets/Audio/SFX/353975__nettimato__rolling-dice-1.wav
-  artifactKey: Guid(53460acedc16c5c4497a3cc63784e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/353975__nettimato__rolling-dice-1.wav using Guid(53460acedc16c5c4497a3cc63784e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfc08f4eca466b57b95053eed6d34e4') in 0.056523 seconds
-  Import took 0.058285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.987605 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448fddc77dd7c9f6748a055a63b12fba') in 0.006367 seconds
-  Import took 0.008282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001314 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448fddc77dd7c9f6748a055a63b12fba') in 0.002368 seconds
-  Import took 0.003877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.400793 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83da6cc4ca34ab13c525c74fb581a12') in 0.002457 seconds
-  Import took 0.003938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017455 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83da6cc4ca34ab13c525c74fb581a12') in 0.002185 seconds
-  Import took 0.003654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.052091 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77d5900a655fd0d044d49ecf4d071ae') in 0.002133 seconds
-  Import took 0.003763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.624031 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa06155fd089f5a2dd25028cc788b74') in 0.001996 seconds
-  Import took 0.003511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013612 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa06155fd089f5a2dd25028cc788b74') in 0.002135 seconds
-  Import took 0.003665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.394223 seconds.
-  path: Assets/Main.mixer
-  artifactKey: Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.mixer using Guid(c1ffe3ba0799da949b8349cdefe76dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a366efa86cc4bd38ac54b50e8387469') in 0.002218 seconds
-  Import took 0.003687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 202.838294 seconds.
-  path: Assets/Prefabs/BiomeText.prefab
-  artifactKey: Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BiomeText.prefab using Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceebaa6368a6961bb9fe24c4c8699e3d') in 0.017492 seconds
-  Import took 0.019672 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000574 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.609 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1661.
-Total: 1.171000 ms (FindLiveObjects: 0.097200 ms CreateObjectMapping: 0.025800 ms MarkObjects: 1.011600 ms  DeleteObjects: 0.035700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1664.
-Total: 1.158400 ms (FindLiveObjects: 0.092600 ms CreateObjectMapping: 0.026300 ms MarkObjects: 1.005400 ms  DeleteObjects: 0.033500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 249.451511 seconds.
-  path: Assets/Audio/SFX/242721__sergeeo__burning-air.mp3
-  artifactKey: Guid(39269cacbb58eab4da0820421ff2b19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/242721__sergeeo__burning-air.mp3 using Guid(39269cacbb58eab4da0820421ff2b19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7ce14443225e6822f9a74267ba5c5c') in 0.040593 seconds
-  Import took 0.042146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 390.528194 seconds.
-  path: Assets/Animations/BiomeText.controller
-  artifactKey: Guid(fd0f8cc6f0e72ca4582f0fdb21577bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/BiomeText.controller using Guid(fd0f8cc6f0e72ca4582f0fdb21577bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d8be69f437ebfc2d82866b3cd6e856') in 0.004474 seconds
-  Import took 0.006286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000867 seconds.
-  path: Assets/Animations/BiomeText.controller
-  artifactKey: Guid(fd0f8cc6f0e72ca4582f0fdb21577bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/BiomeText.controller using Guid(fd0f8cc6f0e72ca4582f0fdb21577bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d8be69f437ebfc2d82866b3cd6e856') in 0.002596 seconds
-  Import took 0.004181 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000562 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1668.
-Total: 1.185800 ms (FindLiveObjects: 0.095700 ms CreateObjectMapping: 0.026500 ms MarkObjects: 1.027200 ms  DeleteObjects: 0.035900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000545 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1671.
-Total: 1.214000 ms (FindLiveObjects: 0.100200 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.049400 ms  DeleteObjects: 0.034600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000561 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.608 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1674.
-Total: 1.138600 ms (FindLiveObjects: 0.093700 ms CreateObjectMapping: 0.026300 ms MarkObjects: 0.983700 ms  DeleteObjects: 0.034300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1677.
-Total: 1.253900 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.027700 ms MarkObjects: 1.079800 ms  DeleteObjects: 0.036700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000518 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1680.
-Total: 1.217200 ms (FindLiveObjects: 0.097900 ms CreateObjectMapping: 0.029200 ms MarkObjects: 1.054800 ms  DeleteObjects: 0.034700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1683.
-Total: 1.197900 ms (FindLiveObjects: 0.099700 ms CreateObjectMapping: 0.026300 ms MarkObjects: 1.037600 ms  DeleteObjects: 0.033500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1686.
-Total: 1.184100 ms (FindLiveObjects: 0.105800 ms CreateObjectMapping: 0.026900 ms MarkObjects: 1.015300 ms  DeleteObjects: 0.035500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000581 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 1.502500 ms (FindLiveObjects: 0.152200 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.261600 ms  DeleteObjects: 0.044800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000552 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.614 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 1.150600 ms (FindLiveObjects: 0.097800 ms CreateObjectMapping: 0.027200 ms MarkObjects: 0.990400 ms  DeleteObjects: 0.034500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000554 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 1.142300 ms (FindLiveObjects: 0.094800 ms CreateObjectMapping: 0.026000 ms MarkObjects: 0.987800 ms  DeleteObjects: 0.033000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 736.555852 seconds.
-  path: Assets/Audio/SFX/242721__sergeeo__burning-air.mp3
-  artifactKey: Guid(39269cacbb58eab4da0820421ff2b19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/242721__sergeeo__burning-air.mp3 using Guid(39269cacbb58eab4da0820421ff2b19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c6f46613eb93c9b702fdca03a3c4c') in 0.037532 seconds
-  Import took 0.039168 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000612 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
-Total: 1.205300 ms (FindLiveObjects: 0.102500 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.038200 ms  DeleteObjects: 0.036700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.607 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 1.241600 ms (FindLiveObjects: 0.098000 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.079100 ms  DeleteObjects: 0.036800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 252.413510 seconds.
-  path: Assets/Audio/SFX/242721__sergeeo__burning-air2.mp3
-  artifactKey: Guid(f3bae0f55346451429c053c325686349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/242721__sergeeo__burning-air2.mp3 using Guid(f3bae0f55346451429c053c325686349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89125d3ef8d3298d12d335c779a2909c') in 0.045826 seconds
-  Import took 0.052987 seconds .
+  Time since last request: 0.000157 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 3.prefab
+  artifactKey: Guid(d6df19b610a7ca0449844e601b39a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 3.prefab using Guid(d6df19b610a7ca0449844e601b39a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a245b37babf2f11dc28d730905f94') in 0.016650 seconds
+  Import took 0.018846 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000135 seconds.
-  path: Assets/Audio/SFX/242721__sergeeo__burning-air3.mp3
-  artifactKey: Guid(4adbf16fde037e445ad2cee890b4b5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/SFX/242721__sergeeo__burning-air3.mp3 using Guid(4adbf16fde037e445ad2cee890b4b5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0906a257dc82e77ff98e1cac87c4c1') in 0.013860 seconds
-  Import took 0.015323 seconds .
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab
+  artifactKey: Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab using Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07743805be0c3cc53a18120caabdd6f') in 0.016423 seconds
+  Import took 0.018771 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1706.
-Total: 1.215800 ms (FindLiveObjects: 0.101800 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.051200 ms  DeleteObjects: 0.034700 ms)
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 11.prefab
+  artifactKey: Guid(0f436f11e5f6a4746ad0ef93dc760583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 11.prefab using Guid(0f436f11e5f6a4746ad0ef93dc760583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715c219763f64410070ea1fa9d41a95') in 0.010024 seconds
+  Import took 0.012023 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.1 MB.
-System memory in use after: 61.2 MB.
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 2.prefab
+  artifactKey: Guid(dcb7425e726bfd24fab770880e6c691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 2.prefab using Guid(dcb7425e726bfd24fab770880e6c691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ff52bfb2aafac4525cc9860b5879dc') in 0.011303 seconds
+  Import took 0.012942 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1709.
-Total: 1.176700 ms (FindLiveObjects: 0.099600 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.015000 ms  DeleteObjects: 0.033900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Main Camera.prefab
+  artifactKey: Guid(c7a759535dc79c345b838a358e072749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Main Camera.prefab using Guid(c7a759535dc79c345b838a358e072749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759aeebbdfb60cef9b25498461cd155f') in 0.006929 seconds
+  Import took 0.008468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab
+  artifactKey: Guid(f5df276ca8db56049849b11899004d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab using Guid(f5df276ca8db56049849b11899004d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274fad3e8314e1aae76275b2bb420614') in 0.008813 seconds
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 12.prefab
+  artifactKey: Guid(60276e840f2409647a7d366606f55005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 12.prefab using Guid(60276e840f2409647a7d366606f55005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c59fc0117d39124633adac3a64999c9') in 0.009728 seconds
+  Import took 0.011224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab
+  artifactKey: Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab using Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46025a655c8b39ba4bb09ac882ddf78') in 0.009906 seconds
+  Import took 0.011500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab
+  artifactKey: Guid(c00575bbb9efcd740b13a035ce795a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab using Guid(c00575bbb9efcd740b13a035ce795a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ce5a38a5f1bd85204c4875d288738') in 0.008538 seconds
+  Import took 0.010045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 1.prefab
+  artifactKey: Guid(06c4d1032830f694f9a3f388ae0b401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Floor 1.prefab using Guid(06c4d1032830f694f9a3f388ae0b401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cfccc389818c6dfe7f724c4fa8e506') in 0.008083 seconds
+  Import took 0.009583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Bush 1.prefab
+  artifactKey: Guid(9c2e89039c24beb4a89d978db6c83c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Bush 1.prefab using Guid(9c2e89039c24beb4a89d978db6c83c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff4301c6b218b8d5643bfe0e60e084') in 0.008762 seconds
+  Import took 0.010288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 2.prefab
+  artifactKey: Guid(d9fc690e52a26ad45947b8b0dbc5f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 2.prefab using Guid(d9fc690e52a26ad45947b8b0dbc5f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30980321238947cf4ee05a78ddb597c6') in 0.009319 seconds
+  Import took 0.010855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab
+  artifactKey: Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab using Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecf2a5250cf827df8810141e4980c2c') in 0.010533 seconds
+  Import took 0.012010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 6.prefab
+  artifactKey: Guid(ca6eed513414b8b48a37b6c02c2fb480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 6.prefab using Guid(ca6eed513414b8b48a37b6c02c2fb480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e95a06d3518f5490bef98a8b1ea1a85') in 0.008908 seconds
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab
+  artifactKey: Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab using Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36266b4532bf8e5c09e24a43506f0c0f') in 0.008762 seconds
+  Import took 0.010237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 16.prefab
+  artifactKey: Guid(fda1b03ba40107b42aa57c49305b41f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 16.prefab using Guid(fda1b03ba40107b42aa57c49305b41f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e557fb07e605406b6920322a24a7780c') in 0.008538 seconds
+  Import took 0.010165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 9.prefab
+  artifactKey: Guid(6956dbfb44d2389469a0a8d9b83f3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 9.prefab using Guid(6956dbfb44d2389469a0a8d9b83f3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8e40b94c89bb605b465f06de7fed80') in 0.010108 seconds
+  Import took 0.011618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 1.prefab
+  artifactKey: Guid(6003346dae61b9c4da33e7f1e6b46882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 1.prefab using Guid(6003346dae61b9c4da33e7f1e6b46882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76c3f6c1275a825e039435aab2152d') in 0.008754 seconds
+  Import took 0.010266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background2.prefab
+  artifactKey: Guid(b79bb06b38877774f9676af4d52e41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Background2.prefab using Guid(b79bb06b38877774f9676af4d52e41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04001d67dced517a7617d3131cdd602f') in 0.013245 seconds
+  Import took 0.014720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 5.prefab
+  artifactKey: Guid(4df9e670bb3c36b4b81387e859e93d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 5.prefab using Guid(4df9e670bb3c36b4b81387e859e93d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6ccd3ac0ae8f10a43f5dde27fed35e') in 0.010168 seconds
+  Import took 0.011638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 10.prefab
+  artifactKey: Guid(221b274084495684db9bc9c630eb7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 10.prefab using Guid(221b274084495684db9bc9c630eb7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff03c4c82241b82b17887f511efcfe92') in 0.008973 seconds
+  Import took 0.010403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab
+  artifactKey: Guid(4901a59201491854c8893f398c2d0c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab using Guid(4901a59201491854c8893f398c2d0c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2339920ab53a3ffb25b8dcd32b4be3fb') in 0.008882 seconds
+  Import took 0.010351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 4.prefab
+  artifactKey: Guid(c040ab9b6f143dc419e9278a27bcad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 4.prefab using Guid(c040ab9b6f143dc419e9278a27bcad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1756f05cfc3f0b89b18fb9c11fb7339') in 0.008741 seconds
+  Import took 0.010198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 5.prefab
+  artifactKey: Guid(35d91982422de864eafebd29f7b4e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 5.prefab using Guid(35d91982422de864eafebd29f7b4e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263cacf475c9d4d42d9d8752fce0526e') in 0.009467 seconds
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Directional Light.prefab
+  artifactKey: Guid(b495335d998dbd44fb9ff642cf73a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Directional Light.prefab using Guid(b495335d998dbd44fb9ff642cf73a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969a6e34f50c5a884d11ce918883b90') in 0.005991 seconds
+  Import took 0.007378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 15.prefab
+  artifactKey: Guid(0f407013ac6a8bc428a76e55593acf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 15.prefab using Guid(0f407013ac6a8bc428a76e55593acf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762e8a2301335d5d086403a0a660f23f') in 0.008603 seconds
+  Import took 0.010123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 2.prefab
+  artifactKey: Guid(82be74164b438774fb36961fa097df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 2.prefab using Guid(82be74164b438774fb36961fa097df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18618b42d011b475e4b73c75fc5bbc30') in 0.009359 seconds
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab
+  artifactKey: Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab using Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8620966bce02c341d59c44f515d123e') in 0.008743 seconds
+  Import took 0.010194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 3.prefab
+  artifactKey: Guid(f2727472b344747408ea8dfb42ce1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 3.prefab using Guid(f2727472b344747408ea8dfb42ce1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cc1a6851b8f79a5a61762cfc5b1088') in 0.008788 seconds
+  Import took 0.010309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab
+  artifactKey: Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab using Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ac79acab0dba5a63540489214072c8') in 0.012736 seconds
+  Import took 0.014163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 2.prefab
+  artifactKey: Guid(a4dcb682a9658ca478dfbacf96e80964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 2.prefab using Guid(a4dcb682a9658ca478dfbacf96e80964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35da60a454520de69c19a5320272990f') in 0.008544 seconds
+  Import took 0.010032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab
+  artifactKey: Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab using Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ac79acab0dba5a63540489214072c8') in 0.006809 seconds
+  Import took 0.008228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 4.prefab
+  artifactKey: Guid(80c1305101746b543802285b180dd283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downtown Game Studio/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 4.prefab using Guid(80c1305101746b543802285b180dd283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238bb0562edbd61eeeebd3002aad84c6') in 0.008331 seconds
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 439.913338 seconds.
+  path: Assets/Prefabs/BiomeText.prefab
+  artifactKey: Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BiomeText.prefab using Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f09f0982d3f86133f193f99dca5cbbc') in 0.012094 seconds
+  Import took 0.014001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Prefabs/BiomeText.prefab
+  artifactKey: Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BiomeText.prefab using Guid(2502422b43508d24c9e3a2bf1cc0d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f09f0982d3f86133f193f99dca5cbbc') in 0.003326 seconds
+  Import took 0.005194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.226782 seconds.
+  path: Assets/Prefabs/tree 1.prefab
+  artifactKey: Guid(d772dd46afc0fa941bd862afa8070ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 1.prefab using Guid(d772dd46afc0fa941bd862afa8070ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dfb9a9487212a45a5ec873c9b3316c') in 0.012559 seconds
+  Import took 0.014252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.309930 seconds.
+  path: Assets/Prefabs/tree 2.prefab
+  artifactKey: Guid(e52455529d0ab1041922968f38aa9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 2.prefab using Guid(e52455529d0ab1041922968f38aa9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3987358f1a81b7531b0446edb6d93559') in 0.007509 seconds
+  Import took 0.009141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614465 seconds.
+  path: Assets/Prefabs/tree 3.prefab
+  artifactKey: Guid(165f306778f00a644bb77ed7ddcf6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 3.prefab using Guid(165f306778f00a644bb77ed7ddcf6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202d12f27062ca6dc484093790224174') in 0.008248 seconds
+  Import took 0.009820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.307571 seconds.
+  path: Assets/Prefabs/tree 5.prefab
+  artifactKey: Guid(3ccb7156f7dcc7c41b24f34c67bb916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 5.prefab using Guid(3ccb7156f7dcc7c41b24f34c67bb916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0fdd0b286885ee70628f41b07af67a') in 0.008301 seconds
+  Import took 0.009867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.400740 seconds.
+  path: Assets/Prefabs/tree 7.prefab
+  artifactKey: Guid(fc676ee26650e734397a92c5658e7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 7.prefab using Guid(fc676ee26650e734397a92c5658e7397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dabe50e249a3e088eaf9c6a7d3bd7c') in 0.009688 seconds
+  Import took 0.011401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.602593 seconds.
+  path: Assets/Prefabs/tree 9.prefab
+  artifactKey: Guid(b9e8825c1f108a4458b30a77d0fe54d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 9.prefab using Guid(b9e8825c1f108a4458b30a77d0fe54d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d9511abafe6ada55b1104ee1fc1e69') in 0.010698 seconds
+  Import took 0.012271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217678 seconds.
+  path: Assets/Prefabs/tree 13.prefab
+  artifactKey: Guid(00e25105c13cdbc4aa060bd786036f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 13.prefab using Guid(00e25105c13cdbc4aa060bd786036f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4019f10d2ae7b46523fcb2d1d4ba543') in 0.009311 seconds
+  Import took 0.010941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.591152 seconds.
+  path: Assets/Prefabs/Palmtree.prefab
+  artifactKey: Guid(6db9e867bbb4ccd4ab07fd836818498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Palmtree.prefab using Guid(6db9e867bbb4ccd4ab07fd836818498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72530e16344d3e561ab273282172ede8') in 0.008861 seconds
+  Import took 0.010456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.762943 seconds.
+  path: Assets/Prefabs/tree 15.prefab
+  artifactKey: Guid(8eb4e8e30a00b9c44bf2dd5f8e0c9401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tree 15.prefab using Guid(8eb4e8e30a00b9c44bf2dd5f8e0c9401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a79e892a0e5d1f846e76c0cd966625') in 0.008388 seconds
+  Import took 0.009988 seconds .
 
