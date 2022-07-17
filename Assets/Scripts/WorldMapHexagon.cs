@@ -49,10 +49,10 @@ public class WorldMapHexagon : MonoBehaviour
                     structure.GetComponent<MeshFilter>().mesh = mapSO.structures[7].GetComponent<MeshFilter>().sharedMesh;
                 break;
             case DiceRoll.StructureDice.Camp:
-                structure.GetComponent<MeshFilter>().mesh = mapSO.structures[8].GetComponent<MeshFilter>().sharedMesh;
+                structure.GetComponent<MeshFilter>().mesh = mapSO.structures[9].GetComponent<MeshFilter>().sharedMesh;
                 break;
             case DiceRoll.StructureDice.Town:
-                structure.GetComponent<MeshFilter>().mesh = mapSO.structures[9].GetComponent<MeshFilter>().sharedMesh;
+                structure.GetComponent<MeshFilter>().mesh = mapSO.structures[8].GetComponent<MeshFilter>().sharedMesh;
                 break;
             case DiceRoll.StructureDice.Empty:
                 structure.GetComponent<MeshFilter>().mesh = null;
